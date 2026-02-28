@@ -72,6 +72,7 @@ with gr.Blocks(title="Research Buddy") as app:
         sources_output = gr.Textbox(label="Sources", lines=5)
         report_output = gr.Markdown(
             label="Report :",
+            buttons=['copy']
         )
 
     submit_btn.click(
